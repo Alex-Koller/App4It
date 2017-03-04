@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0-6d82418fb106cf44681068128de23394cbff59eb.jar" />
+    </item>
+    <item
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-0662b89d99b280c1fe8ad76dafc72c85cd9af5d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.0.3\81994bbc1bd46454616b733bf31fe4a22018e056\firebase-client-jvm-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81994bbc1bd46454616b733bf31fe4a22018e056">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.0.3-7b73c4884a1ad72cf77da29c523b45f9a8424cca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-c50b9462ee91d633419736d240075f2c173a42b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.10\ddce2c65136c1de8000f8932d8b7ab16d5d336b9\tubesock-0.0.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddce2c65136c1de8000f8932d8b7ab16d5d336b9">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\tubesock-0.0.10-3074ae2845b8966091e37bc080f6920f99744982.jar" />
+    </item>
+    <item
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-4c7a16bb911c09b61525824ff6bc64d68ceba67a.jar" />
+    </item>
+    <item
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-7a3dda140ea7f171ff3a330ea4e6fc2ca065d02c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2-8c4bb2512000a5b1e82d551b708d244e9ba3d1bf.jar" />
+    </item>
+    <item
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-663329bc9007c8de23b5d1c1631e45beb766ad55.jar" />
+    </item>
+    <item
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-c033c7124076cbe81e1cb9f67ca3b14703b1bb4d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2-6f9e10055948ade6222b874faf11e6183d01f04e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.1\b09ccfa9ac71b52b60ba4c1ab630150685d58c32\google-api-client-1.19.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b09ccfa9ac71b52b60ba4c1ab630150685d58c32">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-api-client-1.19.1-dd417b028beeb141a24e5b9df0e0f560406f4069.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.m2\repository\com\appspot\universal_helix_789\androiddevice\v1-1.19.1-SNAPSHOT\androiddevice-v1-1.19.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef0c4c4a209773e42b24c2be866633a9e2552fa1">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\androiddevice-v1-1.19.1-SNAPSHOT-20347d68ac240625e7afa6f6716ee116cfd094f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.19.0-464b2eaa285e9fb533774a3bcdee273d6683452a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0-72508533cd62b80d249bca4d3a51ea3a1d2a16c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-27933f34a7efa0a58b8e7c915d7bf689eedbfb15.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.1\551253c681cfd8ab4d988462cf672abcc6b31b89\google-api-client-android-1.19.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="551253c681cfd8ab4d988462cf672abcc6b31b89">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.19.1-891512b80c6759356c0a4617dfb6b477384c04b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2-30f11860499e3c24d650e4701a7960dbef5d991a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-http-client-1.19.0-2bc0543fb5de0e2acc6580b39d78dccdb928a291.jar" />
+    </item>
+    <item
+        jar="C:\DevTools\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-9e7510001d658dab0c4d0c0b1b2d803c1ed78faa.jar" />
+    </item>
+    <item
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.isseiaoki\simplecropview\1.0.10\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e296abe79b677a804cab2ecaf33b294c93993b5">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-e56e6ef6025d8bc4c1c946a6817a28f325f3d691.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.0.3\1665cb30372ae93a46d9800adf5751bc48fa202f\firebase-client-android-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1665cb30372ae93a46d9800adf5751bc48fa202f">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.0.3-3c6992af3e1984b869625d94fc5b87d01c6ed508.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white_opaque">#FFFFFFFF</color>
+    
+    <style name="activityTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF255E</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="activityDetails" parent="@android:style/TextAppearance">        
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>  
+    <style name="newActivityFormLabel" parent="@android:style/TextAppearance">        
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#EEEEEE</item>
+    </style>
+    <style name="whenDialogLabel" parent="@android:style/TextAppearance">        
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>         
+    
+</resources>

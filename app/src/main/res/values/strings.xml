@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeApp4It</string>
+    <string name="your_phone_number_here">Your phone number</string>
+    <string name="text_being_sent">The text is being sent&#8230;</string>
+    <string name="setting_you_up">Setting you up&#8230;</string>
+    <string name="action_settings">Settings</string>
+    <string name="tell_us_your_number_so_people_who_know_you_can_find_you">Tell us your number so people who know you can get in touch with you here on BeApp4It</string>
+    <string name="enter_confirmation_code_from_text">The text message is on its way. Once you have it enter the code from the message here</string>
+    <string name="suggest_alternative_time">Suggest time for this event that best suits you. Others then can vote on it.</string>
+    <string name="suggest_alternative_place">Suggest place for this event that best suits you. Others then can vote on it.</string>
+    <string name="freetext">Freetext</string>
+    <string name="text_me">Send me a text to confirm</string>
+    <string name="go">Go</string>
+    <string name="title_activity_home">BeApp4It</string>
+    <string name="delimiter">|</string>
+    <string name="my_profile_name_desc">(This is the name you will be seen under to people who don\'t have your number but are on the same event.)</string>
+    <string name="opening_bracket">(</string>
+    <string name="closing_bracket">)</string>
+    <string name="title_of_this_event">Title</string>
+    <string name="saved">Saved</string>
+    <string name="deleted">Deleted</string>
+    <string name="whats_out_there">What\'s out there</string>
+
+    <string name="show_these_event_types">Show these event types</string>
+    <string name="where_my_invitation_status_is">Where my status is</string>
+    <string name="contacts">Contacts</string>
+    <string name="users">Users</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="done">Done</string>
+    <string name="share">Share it</string>
+    <string name="comments_notifications">Notifications</string>
+    <string name="title_activity_filter">Which events you want to see?</string>
+    <string name="title_activity_contacts">Friends on the app</string>
+    <string name="new_activity">New event</string>
+    <string name="invitation_list">Invite people</string>
+    <string name="save">Save</string>
+    <string name="saving">Saving&#8230;</string>
+    <string name="delete_event">Delete event</string>
+    <string name="delete">Delete</string>
+    <string name="deleting">Deleting&#8230;</string>
+    <string name="delete_event_let_everybody_know">Delete - with notifications</string>
+    <string name="delete_event_keep_silent">Delete - without notifications</string>
+    <string name="my_profile">My profile</string>
+    <string name="filter">Filter</string>
+    <string name="filter_checked">Filter \u25CF</string>
+    <string name="title_activity_new_activity">New event</string>
+    <string name="activity_type">Type</string>
+    <string name="type_of_this_event">Type of this event</string>
+    <string name="invitations"><b>Invitations</b></string>
+    <string name="description">Description</string>
+    <string name="more"><b>More</b></string>
+    <string name="comments"><b>Comments</b></string>
+    <string name="chat"><b>Chat</b></string>
+    <string name="map_read_title">Map</string>
+    <string name="map_write_title">Map</string>
+    <string name="my_profile_title">My profile</string>
+    <string name="their_profile_title">Profile</string>
+    <string name="crop_title">Cut the picture</string>
+    <string name="your_name_here">Your name goes here</string>
+    <string name="map"><b>Map</b></string>
+    <string name="plain_map">Map</string>
+    <string name="search">Search</string>
+    <string name="i_am_going">Going</string>
+    <string name="i_am_not_going">Not going</string>
+    <string name="i_havent_answered">No answer yet</string>
+    <string name="i_created">Created by me</string>
+    <string name="i_am_app_4_it">I\'m App4It!</string>
+    <string name="no_thanks">Sorry, I can\'t</string>
+    <string name="say_when">Time votes</string>
+    <string name="say_where">Place votes</string>
+    <string name="event_details">Show details</string>
+    <string name="date">Date</string>
+    <string name="date_and_time">Date &amp; time</string>
+    <string name="needs_google_app_services">This app needs Google App Services to run</string>
+    <string name="catch_up">Catch up</string>
+    <string name="cultural">Cultural</string>
+    <string name="night_out">Night out</string>
+    <string name="sport">Sport</string>
+    <string name="food_and_drink">Food and drink</string>
+    <string name="undisclosed">Undisclosed</string>
+
+    <string-array name="activity_types">
+        <item>Undisclosed</item>
+        <item>Catch up</item>
+        <item>Cultural</item>
+        <item>Night out</item>
+        <item>Sport</item>
+        <item>Food and drink</item>
+    </string-array>
+
+    <string-array name="international_phone_prefixes">
+        <item>AT (+43)</item>
+        <item>AU (+61)</item>
+        <item>BG (+359)</item>
+        <item>BY (+375)</item>
+        <item>CH (+41)</item>
+        <item>CY (+357)</item>
+        <item>CZ (+420)</item>
+        <item>CN (+86)</item>
+        <item>DE (+49)</item>
+        <item>EC (+593)</item>
+        <item>ES (+34)</item>
+        <item>FI (+358)</item>
+        <item>FR (+33)</item>
+        <item>GR (+30)</item>
+        <item>HU (+36)</item>
+        <item>IE (+353)</item>
+        <item>IN (+91)</item>
+        <item>IT (+39)</item>
+        <item>JP (+81)</item>
+        <item>KR (+82)</item>
+        <item>NL (+31)</item>
+        <item>NZ (+64)</item>
+        <item>PL (+48)</item>
+        <item>PT (+351)</item>
+        <item>RO (+40)</item>
+        <item>RU (+7)</item>
+        <item>SG (+65)</item>
+        <item>SK (+421)</item>
+        <item>TR (+90)</item>
+        <item>UA (+380)</item>
+        <item>UK (+44)</item>
+        <item>US (+1)</item>
+    </string-array>
+
+    <string name="when_is_this_activity_happening">When</string>
+    <string name="where_is_this_activity_happening">Where</string>
+    <string name="title_activity_invite">Invitation list</string>
+    <string name="invite">Invite</string>
+    <string name="going">Going</string>
+    <string name="notGoing">Not going</string>
+    <string name="invited">Invited</string>
+    <string name="title_activity_suggest">Suggest an alternative</string>
+    <string name="title_activity_suggest_time">Suggest an alternative time</string>
+    <string name="title_activity_suggest_place">Suggest an alternative place</string>
+    <string name="suggestions_on_the_map">Suggested places</string>
+    <string name="no_one_has_made_suggestions">No one has yet made any suggestions</string>
+    <string name="do_you_want_to_promote_this_time">Do you want to promote this suggestion as the time of the event?</string>
+    <string name="do_you_want_to_promote_this_place">Do you want to promote this suggestion as the place of the event?</string>
+    <string name="do_you_want_to_remove_silently_or_loudly">Do you want to let the invitees know that this event is being removed?</string>
+    <string name="no_map_location_saved_for_this_event">No map location has been saved for this event</string>
+    <string name="do_you_want_to_look_for_this_on_the_map">Do you want to look for \'THIS_LOCATION\' on the map?</string>
+    <string name="do_you_want_to_add_map_location">Do you want to add map location?</string>
+    <string name="update_the_map_location">Update the map location?</string>
+    <string name="view_on_map">View on map</string>
+    <string name="place_of_event_change_to_this">The place of the event has changed to \'THIS_LOCATION\' since it was added through the map.</string>
+    <string name="suggestion_changed">The suggestion changed to \'THIS_LOCATION\' since it was added through the map.</string>
+    <string name="place_of_event_is_changing_to">The place of the event is changing to \'THIS_LOCATION\'.</string>
+    <string name="for_this">Showing where \'THIS_LOCATION\' is on the map?</string>
+    <string name="because_place_of_the_event_has_been_removed">Because the place of the event has been removed.</string>
+    <string name="more_than_one_result">More than one place found for this address</string>
+    <string name="do_you_want_to_open_map">Do you want to see them on the map?</string>
+    <string name="nothing_found_on_the_map">Nothing found on the map</string>
+    <string name="save_anyway">Save anyway?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="edit"><b>Edit</b></string>
+    <string name="title_activity_edit_activity">Edit event</string>
+    <string name="title_activity_comments">Chat</string>
+    <string name="post">Post</string>
+    <string name="no_comments">There are no comments here</string>
+    <string name="there_are_no_events_now">There are no events now. Create one yourself?</string>
+    <string name="lets_recap">Let\'s recap:</string>
+    <string name="guide_step_1">1. There\'s something you want to do or somewhere you want to go</string>
+    <string name="guide_step_2">2. You create an event and invite whoever you think may want to join</string>
+    <string name="guide_step_3">3. You relax and wait to see who is App4It</string>
+    <string name="event_has_no_description">This event has no description</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="missing_your_photo">We are missing your photo</string>
+    <string name="just_a_moment">Just a moment&#8230;</string>
+    <string name="let_me_go_and_get_it">Let me go and get it&#8230;</string>
+    <string name="connecting">Connecting&#8230;</string>
+    <string name="connected">Connected</string>
+    <string name="searching">Searching&#8230;</string>
+    <string name="getting_ready">Getting ready&#8230;</string>
+    <string name="no_users_notice">None of your contacts are using BeApp4It. Why don\'t you invite some?</string>
+    <string name="no_users_to_invite_to_new_event">None of your contacts are using BeApp4It. You can still create the event and invite them later.</string>
+    <string name="options">Options</string>
+    <string name="contact_is_on_beapp4it">Is on BeApp4It</string>
+    <string name="invite_via_sms">Invite via SMS</string>
+    <string name="sms_sent">SMS sent</string>
+
+</resources>

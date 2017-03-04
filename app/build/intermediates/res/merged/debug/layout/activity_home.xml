@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HomeActivity" >
+
+    <LinearLayout
+        android:id="@+id/homeButtonsGroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/btnContacts"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textColor="@drawable/top_home_button"
+            android:paddingLeft="10dp"
+            android:text="@string/users"/>
+               
+       <Button android:id="@+id/btnFilter"
+               style="?android:attr/buttonStyleSmall"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="#FFFFFF"
+               android:textColor="@drawable/top_home_button"
+               android:paddingLeft="12dp"
+               android:text="@string/filter"/>
+
+        <Button android:id="@+id/btnMyProfile"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textColor="@drawable/top_home_button"
+            android:paddingLeft="12dp"
+            android:text="@string/my_profile"/>
+
+        <View android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button android:id="@+id/btnNewActivity"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/top_home_button_special"
+            android:background="#FFFFFF"
+            android:paddingRight="22dp"
+            android:text="@string/new_activity"/>
+
+    </LinearLayout>
+    
+	<FrameLayout
+	    android:id="@+id/activities_container_layout"	  	    
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+           	    	    		
+	</FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/activities_loading_notice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+            <ProgressBar
+                android:id="@+id/activities_loading_notice_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:max="100"
+                android:progress="0"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/custom_progress_bar"
+                />
+            <TextView
+                android:id="@+id/activities_loading_notice_text"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#5F5F5F"
+            />
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_activity_invitation_row.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\new_activity_invitation_row.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filter.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_filter.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_cell.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\grid_cell.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_their_profile.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\fragment_their_profile.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\suggest_activity_preferences_fragment.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\suggest_activity_preferences_fragment.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contacts.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_contacts.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\invitation_row.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\invitation_row.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_time_dialog.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\date_time_dialog.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_row_pre_loli.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_row_pre_loli.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map_read.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_map_read.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_two.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_start_two.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_activity.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_edit_activity.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_suggest_time.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_suggest_time.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_crop.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_crop.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_invite.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_invite.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_bounce.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_start_bounce.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_fragment.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\loading_fragment.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_bounce.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_home_bounce.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_not_supported.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_app_not_supported.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_activity_details_fragment.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\new_activity_details_fragment.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_profile.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_my_profile.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment_row.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\comment_row.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_row.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\contact_row.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_their_profile.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_their_profile.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_activity.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_new_activity.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_activities_list_content.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\custom_activities_list_content.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map_write.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_map_write.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_suggest_place.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_suggest_place.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_row_loli_onwards.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_row_loli_onwards.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comments.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\layout\\activity_comments.xml"
+    }
+]

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="androiddevice-v1-1.19.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/appspot/universal_helix_789/androiddevice/v1-1.19.1-SNAPSHOT/androiddevice-v1-1.19.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/appspot/universal_helix_789/androiddevice/v1-1.19.1-SNAPSHOT/androiddevice-v1-1.19.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

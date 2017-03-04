@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".ContactsActivity" >
+
+    <TextView
+        android:id="@+id/contacts_loading_notice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/searching"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#5F5F5F"
+        />
+
+    <FrameLayout
+        android:id="@+id/contacts_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+    </FrameLayout>
+
+
+</LinearLayout>

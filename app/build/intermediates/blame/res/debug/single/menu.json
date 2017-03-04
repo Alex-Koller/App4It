@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\menu\\myprofile.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\menu\\myprofile.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mapwrite.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\menu\\mapwrite.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\menu\\crop.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\menu\\crop.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contacts.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\menu\\contacts.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\menu\\comments.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\menu\\comments.xml"
+    }
+]

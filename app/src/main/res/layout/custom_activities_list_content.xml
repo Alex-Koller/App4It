@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+this is default ListFragment layout. but we need it to use our own list view therefore
+we have this own copy
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/progressContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ProgressBar style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/loading"
+            android:paddingTop="4dip"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <FrameLayout android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="false" />
+
+        <LinearLayout
+            android:id="@id/android:empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#C0C0C0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/appbackground"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#C0C0C0"
+                    android:textSize="22dp"
+                    android:layout_marginBottom="30dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/there_are_no_events_now"/>
+
+                <TextView
+                    android:id="@+id/guide_step_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#C8C8C8"
+                    android:textSize="17dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/guide_step_1"/>
+
+                <TextView
+                    android:id="@+id/guide_step_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#C8C8C8"
+                    android:textSize="17dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/guide_step_2"/>
+
+                <TextView
+                    android:id="@+id/guide_step_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#C8C8C8"
+                    android:textSize="17dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/guide_step_3"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

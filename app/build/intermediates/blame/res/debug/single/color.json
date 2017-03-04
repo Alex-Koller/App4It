@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\6.5.87\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\6.5.87\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\color\\highlighting_textview_textcolor.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\color\\highlighting_textview_textcolor.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\6.5.87\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\6.5.87\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\color\\stable_button_textcolor.xml",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\color\\stable_button_textcolor.xml"
+    }
+]

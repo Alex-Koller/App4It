@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+        <RelativeLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="10dip"
+          android:paddingRight="10dip"
+          android:background="#ffffff"
+          >
+
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/comment_picture"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            />
+
+          <TextView
+                android:id="@+id/comment_row_text"
+                android:layout_toRightOf="@id/comment_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:paddingLeft="4dp"
+                android:paddingBottom="15dp"
+                android:background="#00000000"
+                android:autoLink="all"
+          />
+
+          <TextView
+            android:id="@+id/comment_row_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textIsSelectable="false"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#B8B8B8"
+          />
+
+         <View
+            android:id="@+id/comment_row_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#E0E0E0" />
+
+</RelativeLayout>

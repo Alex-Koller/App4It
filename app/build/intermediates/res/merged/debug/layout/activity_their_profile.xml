@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".TheirProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/theirProfilePicture"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:background="#ffffff"
+             />
+
+        <View
+            android:layout_marginTop="40dp"
+            android:layout_alignRight="@id/theirProfilePicture"
+            android:layout_width="3dp"
+            android:layout_height="280dp"
+            android:background="@drawable/shadow_right_side"
+            />
+
+        <View
+            android:layout_alignBottom="@id/theirProfilePicture"
+            android:layout_centerHorizontal="true"
+            android:layout_width="275dp"
+            android:layout_height="2dp"
+            android:background="@drawable/shadow_bottom_side"
+            />
+
+        <TextView
+            android:id="@+id/theirProfileErrorText"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:textSize="22sp"
+            android:maxLines="3"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#8F8F8F"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/theirProfileTextUnderPicture"
+            android:layout_below="@id/theirProfilePicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#4F4F4F"/>
+
+
+        <TextView
+            android:id="@+id/theirProfileLoadingNotice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/just_a_moment"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5F5F5F"
+            android:background="#cfFFFFFF"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</ScrollView>

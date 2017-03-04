@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivityActivity" >
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+       <Button android:id="@+id/btnEditActivitySave"
+           	   style="?android:attr/buttonBarButtonStyle"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:text="@string/save"/>   
+               
+       <Button android:id="@+id/btnEditActivityDelete"
+               style="?android:attr/buttonBarButtonStyle"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:text="@string/delete_event"
+               android:background="@drawable/red_button"/>         
+        
+    </LinearLayout>    
+    
+	<FrameLayout
+		    android:id="@+id/edit_activity_frame_container"	  	    
+		    android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        	android:layout_height="0dp"        	
+        	android:layout_weight="1">	           				    	           	    	    		
+	</FrameLayout>      
+          
+
+</LinearLayout>

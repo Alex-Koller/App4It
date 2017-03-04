@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MyProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             >
+
+            <ImageView
+                android:id="@+id/myProfilePicture"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:visibility="visible"
+                 />
+
+            <TextView
+                android:id="@+id/myProfileNoPictureText"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:textSize="22sp"
+                android:maxLines="3"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#8F8F8F"
+                android:background="@drawable/nophoto_background"
+                android:text="@string/missing_your_photo"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <View android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button android:id="@+id/myProfileCameraButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:background="@drawable/clear_button"
+                    android:minHeight="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@drawable/top_home_button"
+                    android:textSize="16sp"
+                    android:text="@string/camera"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20sp"
+                    android:textColor="#009DC0"
+                    android:text="@string/delimiter"/>
+
+                <Button android:id="@+id/myProfileGalleryButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:background="@drawable/clear_button"
+                    android:minHeight="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@drawable/top_home_button"
+                    android:textSize="16sp"
+                    android:text="@string/gallery"/>
+            </LinearLayout>
+
+            <EditText android:id="@+id/myProfileNameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:hint="@string/your_name_here"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="#5F5F5F"
+                android:text="@string/my_profile_name_desc"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/myProfileLoadingNotice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/just_a_moment"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5F5F5F"
+            android:background="#cfFFFFFF"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/activity_border"
+    android:longClickable="true"
+    >
+
+    <!-- This LinearLayout is the title, the by underneath and the icon -->
+    <LinearLayout
+        android:id="@+id/activity_row_top_strip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- This linear layout encapsulates the the title and by so they are in one column -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_row_title"
+                style="@style/activityTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                />
+
+            <TextView
+                android:id="@+id/activity_row_details"
+                style="@style/activityDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/activity_row_type_icon"
+            android:contentDescription="@string/type_of_this_event"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+    </LinearLayout>
+
+    <!-- Now follow links for actions -->
+    <TextView
+        android:id="@+id/activity_row_more"
+        android:layout_below="@id/activity_row_top_strip"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more"
+        android:background="@drawable/highlighting_textview"
+        android:textColor="@color/highlighting_textview_textcolor"
+        />
+
+    <TextView
+        android:id="@+id/activity_row_comments"
+        android:layout_below="@id/activity_row_top_strip"
+        android:layout_toRightOf="@id/activity_row_more"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chat"
+        android:background="@drawable/highlighting_textview"
+        android:textColor="@color/highlighting_textview_textcolor"
+        />
+
+    <TextView
+        android:id="@+id/activity_row_invitations"
+        android:layout_below="@id/activity_row_top_strip"
+        android:layout_toRightOf="@id/activity_row_comments"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitations"
+        android:background="@drawable/highlighting_textview"
+        android:textColor="@color/highlighting_textview_textcolor"
+        />
+
+    <TextView
+        android:id="@+id/activity_row_map"
+        android:layout_below="@id/activity_row_top_strip"
+        android:layout_toRightOf="@id/activity_row_invitations"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map"
+        android:background="@drawable/highlighting_textview"
+        android:textColor="@color/highlighting_textview_textcolor"
+        />
+
+    <TextView
+        android:id="@+id/activity_row_edit"
+        android:layout_below="@id/activity_row_top_strip"
+        android:layout_toRightOf="@id/activity_row_map"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:visibility="gone"
+        android:background="@drawable/highlighting_textview"
+        android:textColor="@color/highlighting_textview_textcolor"
+        />
+
+    <!-- Here follows the grid for holding people who are going. In linear layout with action buttons -->
+    <LinearLayout
+        android:id="@+id/activity_row_body"
+        android:layout_below="@id/activity_row_invitations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <GridView
+            android:id="@+id/activity_row_body_grid"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:verticalSpacing="5dp"
+            android:background="#00000000"
+            android:columnWidth="53dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="spacingWidthUniform"
+            android:nestedScrollingEnabled="true"
+            >
+        </GridView>
+
+        <LinearLayout
+            android:id="@+id/activity_row_body_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button android:id="@+id/btnActivityApp4It"
+                style="?android:attr/buttonStyleSmall"
+                android:background="@drawable/app4it_button"
+                android:textColor="@color/stable_button_textcolor"
+                android:minHeight="33dip"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/i_am_app_4_it"/>
+
+            <Button android:id="@+id/btnActivityNoThanks"
+                style="?android:attr/buttonStyleSmall"
+                android:background="@drawable/nothanks_button"
+                android:textColor="@color/stable_button_textcolor"
+                android:minHeight="33dip"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/no_thanks"/>
+
+            <Button android:id="@+id/btnActivityWhen"
+                style="?android:attr/buttonStyleSmall"
+                android:background="@drawable/suggest_button"
+                android:textColor="@color/stable_button_textcolor"
+                android:minHeight="33dip"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/say_when"/>
+
+            <Button android:id="@+id/btnActivityWhere"
+                style="?android:attr/buttonStyleSmall"
+                android:background="@drawable/suggest_button"
+                android:textColor="@color/stable_button_textcolor"
+                android:minHeight="33dip"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/say_where"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

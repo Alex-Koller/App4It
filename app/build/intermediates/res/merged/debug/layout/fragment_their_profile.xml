@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/theirProfileFragmentPicture"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+
+            android:paddingLeft="8dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+
+            android:background="@drawable/their_profile_pic_background"
+
+            android:visibility="gone"
+            />
+
+        <View
+            android:id="@+id/theirProfileFragmentShadowRight"
+            android:layout_marginTop="15dp"
+            android:layout_alignRight="@id/theirProfileFragmentPicture"
+            android:layout_width="3dp"
+            android:layout_height="250dp"
+            android:background="@drawable/shadow_right_side"
+            android:visibility="gone"
+            />
+
+        <View
+            android:id="@+id/theirProfileFragmentShadowBottom"
+            android:layout_alignBottom="@id/theirProfileFragmentPicture"
+            android:layout_centerHorizontal="true"
+            android:layout_width="248dp"
+            android:layout_height="2dp"
+            android:background="@drawable/shadow_bottom_side"
+            android:visibility="gone"
+            />
+
+        <View
+            android:id="@+id/theirProfileFragmentShadowTop"
+            android:layout_alignTop="@id/theirProfileFragmentPicture"
+            android:layout_centerHorizontal="true"
+            android:layout_width="248dp"
+            android:layout_height="2dp"
+            android:background="@drawable/shadow_top_side"
+            android:visibility="gone"
+            />
+
+        <View
+            android:id="@+id/theirProfileFragmentShadowLeft"
+            android:layout_marginTop="15dp"
+            android:layout_alignLeft="@id/theirProfileFragmentPicture"
+            android:layout_width="2dp"
+            android:layout_height="250dp"
+            android:background="@drawable/shadow_left_side"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/theirProfileFragmentErrorText"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:maxLines="3"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#8F8F8F"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/theirProfileFragmentTextUnderPicture"
+            android:layout_below="@id/theirProfileFragmentPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#4F4F4F"/>
+
+        <TextView
+            android:id="@+id/theirProfileFragmentLoadingNotice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/let_me_go_and_get_it"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#5F5F5F"
+            android:background="#cff5f5f5"
+            />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dip"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/contact_picture"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            />
+
+        <TextView
+            android:id="@+id/contact_row_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:gravity="center_vertical"
+            android:layout_height="53dp"
+            android:textSize="15dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            />
+
+        <Button android:id="@+id/btnContactStatus"
+            style="?android:attr/buttonStyleSmall"
+            android:background="@drawable/contact_status_button"
+            android:minHeight="30dip"
+            android:textSize="12sp"
+            android:textColor="@drawable/contact_state_text_color"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="suggestionGreen">#B8CB4C</color>
+    <color name="beApp4ItPink">#FF255E</color>
+    <color name="prettyBlue">#009DC0</color>
+    <color name="prettyGreen">#B8CB4C</color>
+    <color name="invitationRed">#9C3167</color>
+    <color name="invitationGold">#FFFFbB00</color>
+    <!--color name="iosButtonTextBlue">#007AFF</color-->
+    <color name="iosButtonTextBlue">#1e85e6</color>
+</resources>

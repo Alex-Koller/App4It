@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/round_button_stage_two"/>
+    <item android:drawable="@drawable/round_button_stage_one"/>
+    <item android:drawable="@drawable/round_button_stage_three"/>
+
+
+</transition>

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".CropActivity" >
+
+
+    <com.isseiaoki.simplecropview.CropImageView
+        android:id="@+id/cropImageView"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        custom:minFrameSize="200dp"
+        custom:cropMode="ratio_1_1"
+        custom:frameColor="#86c166"
+        custom:guideColor="#aa86c166"
+        custom:handleColor="#86c166"
+        />
+
+</LinearLayout>

@@ -1,0 +1,263 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".FilterActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF255E"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        style="@style/newActivityFormLabel"
+        android:text="@string/show_these_event_types" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/activity_filter_catchup"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/catchup" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/catch_up" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_filter_cultural"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/culture" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cultural" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_filter_nightout"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/nightout" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/night_out" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- second row -->
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/activity_filter_sport"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/sport" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_filter_foodanddrink"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/foodanddrink" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_and_drink" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_filter_undisclosed"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/undisclosed" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/undisclosed" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- Filter by invitation status -->
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF255E"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        style="@style/newActivityFormLabel"
+        android:text="@string/where_my_invitation_status_is" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#15B8CB4C">
+
+        <!-- left column -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:id="@+id/activity_filter_going"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:textOn="@string/i_am_going"
+                android:textOff="@string/i_am_going"
+                android:onClick="onToggleButtonClicked"/>
+
+            <ToggleButton
+                android:id="@+id/activity_filter_no_answer"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textOn="@string/i_havent_answered"
+                android:textOff="@string/i_havent_answered"
+                android:onClick="onToggleButtonClicked"/>
+
+        </LinearLayout>
+
+        <!-- right column -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+
+            <ToggleButton
+                android:id="@+id/activity_filter_not_going"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textOn="@string/i_am_not_going"
+                android:textOff="@string/i_am_not_going"
+                android:onClick="onToggleButtonClicked"/>
+
+            <ToggleButton
+                android:id="@+id/activity_filter_created_by_me"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:textOn="@string/i_created"
+                android:textOff="@string/i_created"
+                android:onClick="onToggleButtonClicked"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

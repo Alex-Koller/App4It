@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".CommentsActivity" >
+
+    <TextView
+        android:id="@+id/comments_loading_notice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/loading"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#5F5F5F"
+        />
+
+    <FrameLayout
+		    android:id="@+id/comments_activity_frame_container"	  	    
+		    android:layout_width="match_parent"
+        	android:layout_height="0dp"        	
+        	android:layout_weight="3">	           				    	           	    	    		
+	</FrameLayout>    
+	
+	<EditText android:id="@+id/editCommentsActivityNewComment"
+		      android:layout_width="match_parent"	
+			  android:layout_height="wrap_content"
+			  android:lines="3"    
+			  android:minLines="3"   
+			  android:maxLines="3"
+              android:textSize="13sp"
+			  android:gravity="top|left"
+			  android:scrollbars="vertical"
+		      android:inputType="textMultiLine"
+              android:layout_marginTop="10dp"
+		      android:layout_marginLeft="5dp"
+		      android:layout_marginRight="5dp"
+		      android:background="@drawable/edittext_shape"	 
+		      android:padding="10dp"     		      		      		      		    		      
+	/>   
+	
+   	<Button android:id="@+id/btnCommentsActivityPost"
+   	    style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/post_comment_button"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textColor="#009DC0"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/post" />  			
+                   					               	
+	              			                  	       
+</LinearLayout>

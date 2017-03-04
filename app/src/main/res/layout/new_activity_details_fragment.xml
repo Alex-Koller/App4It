@@ -1,0 +1,183 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout	    android:id="@+id/editNewActivityLayout"
+	    				android:layout_width="match_parent"			    
+					    android:layout_height="wrap_content"
+					    android:orientation="vertical"
+		    			android:layout_marginLeft="10dp"
+		    			android:layout_marginRight="10dp"
+					    >	
+					    
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+                            android:background="#009DC0"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+					        style="@style/newActivityFormLabel"
+					        android:text="@string/title_of_this_event" />  
+					        
+					    <EditText android:id="@+id/newActivityLayout_title"
+					              android:layout_width="match_parent"
+					              android:layout_height="wrap_content"
+					              android:singleLine="true"
+					              android:inputType="text"/>	
+					              
+					    <TextView
+					        android:layout_marginTop="10dp"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+                            android:background="#00778f"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+					        style="@style/newActivityFormLabel"
+					        android:text="@string/description" />  	
+					        
+						<EditText android:id="@+id/newActivityLayout_description"
+							      android:layout_width="match_parent"	
+								  android:layout_height="wrap_content"		
+								  android:lines="3"    
+								  android:minLines="3"   
+								  android:maxLines="3"   
+								  android:gravity="top|left"
+								  android:scrollbars="vertical"
+							      android:inputType="textMultiLine"		      		      		      		      		    		      
+						/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009DC0"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                style="@style/newActivityFormLabel"
+                android:text="@string/when_is_this_activity_happening" />
+
+            <View android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1" />
+
+            <Button android:id="@+id/newActivityLayout_btnFreetext"
+                style="?android:attr/buttonStyleSmall"
+                android:background="@drawable/clear_button"
+                android:minHeight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="@string/freetext"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="#009DC0"
+                android:text="@string/delimiter"/>
+
+            <Button android:id="@+id/newActivityLayout_btnDate"
+                style="?android:attr/buttonStyleSmall"
+                android:background="@drawable/clear_button"
+                android:minHeight="30dp"
+                android:minWidth="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="@string/date"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="#009DC0"
+                android:text="@string/delimiter"/>
+
+            <Button android:id="@+id/newActivityLayout_btnDateTime"
+                style="?android:attr/buttonStyleSmall"
+                android:background="@drawable/clear_button"
+                android:minHeight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="@string/date_and_time"/>
+
+        </LinearLayout>
+
+		<EditText android:id="@+id/newActivityLayout_when"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:singleLine="true"
+				  android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+                            android:background="#00778f"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+					        style="@style/newActivityFormLabel"
+					        android:text="@string/where_is_this_activity_happening" />
+
+                        <View android:layout_width="0dp"
+                              android:layout_height="match_parent"
+                              android:layout_weight="1" />
+
+                        <Button android:id="@+id/newActivityLayout_btnMap"
+                            style="?android:attr/buttonStyleSmall"
+                            android:background="@drawable/clear_button"
+                            android:minHeight="30dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:text="@string/plain_map"
+                            />
+
+        </LinearLayout>
+					        
+					    <EditText android:id="@+id/newActivityLayout_where"
+					              android:layout_width="match_parent"
+					              android:layout_height="wrap_content"
+					              android:singleLine="true"
+					              android:inputType="text"/>	
+					              
+					    <TextView
+					        android:layout_marginTop="10dp"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+                            android:background="#009DC0"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+					        style="@style/newActivityFormLabel"
+					        android:text="@string/activity_type" />  	
+					        
+						<Spinner
+						    android:id="@+id/newActivityLayout_type"
+						   	android:layout_width="match_parent"
+						  	android:layout_height="wrap_content"
+						/>
+
+    </LinearLayout>
+</ScrollView>  

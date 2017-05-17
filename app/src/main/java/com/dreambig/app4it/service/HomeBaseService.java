@@ -5,7 +5,9 @@ import android.content.Intent;
 import android.util.Log;
 
 import com.dreambig.app4it.helper.GCMSupport;
+import com.dreambig.app4it.receiver.GcmBroadcastReceiver;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.google.android.gms.iid.InstanceID;
 
 /**
  * Created by Alexandr on 18/02/2015.
@@ -23,14 +25,29 @@ public class HomeBaseService extends IntentService {
     //note that this is run in the worker thread. and that it then stops the service by itself
     @Override
     protected void onHandleIntent(Intent intent) {
-        GoogleCloudMessaging gcm = GoogleCloudMessaging.getInstance(getApplicationContext());
-        //the next line is supposed to return the registration id. but on some devices it just throws SERVICE_NOT_AVAILABLE error
-        //therefore adoptive approach had to be addopted. follow #deviceRegistration
+        /*
+        the next line is supposed to return the registration id. but on some devices it just throws SERVICE_NOT_AVAILABLE error
+        therefore adoptive approach had to be addopted. follow #deviceRegistration
+
+        since then GCM register is deprecated so use newer way of doing - InstanceID
+        if it's worth doing we could check for version of google play services and do it the old way of instance id n/a
+        */
+
         try {
-            gcm.register(GCMSupport.APP4IT_PROJECT_NUMBER);
+            String authorizedEntity = GCMSupport.getApp4itProjectNumber();
+            InstanceID instanceID = InstanceID.getInstance(getApplicationContext());
+            String token = instanceID.getToken(authorizedEntity,GoogleCloudMessaging.INSTANCE_ID_SCOPE);
+            GcmBroadcastReceiver.takeCareOfRegistration(getApplicationContext(),token);
         } catch (Exception e) {
             //not much that can be done here
         }
     }
+
+    /*
+
+                do the refresh part of instance id
+
+
+    */
 
 }

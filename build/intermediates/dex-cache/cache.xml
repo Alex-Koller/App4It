@@ -2,158 +2,409 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0-6d82418fb106cf44681068128de23394cbff59eb.jar" />
-    </item>
-    <item
-        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-0662b89d99b280c1fe8ad76dafc72c85cd9af5d7.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.0.3\81994bbc1bd46454616b733bf31fe4a22018e056\firebase-client-jvm-2.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81994bbc1bd46454616b733bf31fe4a22018e056">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.0.3-7b73c4884a1ad72cf77da29c523b45f9a8424cca.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-c50b9462ee91d633419736d240075f2c173a42b2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.10\ddce2c65136c1de8000f8932d8b7ab16d5d336b9\tubesock-0.0.10.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ddce2c65136c1de8000f8932d8b7ab16d5d336b9">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\tubesock-0.0.10-3074ae2845b8966091e37bc080f6920f99744982.jar" />
-    </item>
-    <item
-        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-4c7a16bb911c09b61525824ff6bc64d68ceba67a.jar" />
-    </item>
-    <item
-        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-7a3dda140ea7f171ff3a330ea4e6fc2ca065d02c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2-8c4bb2512000a5b1e82d551b708d244e9ba3d1bf.jar" />
-    </item>
-    <item
-        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-663329bc9007c8de23b5d1c1631e45beb766ad55.jar" />
-    </item>
-    <item
-        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-c033c7124076cbe81e1cb9f67ca3b14703b1bb4d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2-6f9e10055948ade6222b874faf11e6183d01f04e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.1\b09ccfa9ac71b52b60ba4c1ab630150685d58c32\google-api-client-1.19.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b09ccfa9ac71b52b60ba4c1ab630150685d58c32">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-api-client-1.19.1-dd417b028beeb141a24e5b9df0e0f560406f4069.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.m2\repository\com\appspot\universal_helix_789\androiddevice\v1-1.19.1-SNAPSHOT\androiddevice-v1-1.19.1-SNAPSHOT.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ef0c4c4a209773e42b24c2be866633a9e2552fa1">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\androiddevice-v1-1.19.1-SNAPSHOT-20347d68ac240625e7afa6f6716ee116cfd094f1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.19.0-464b2eaa285e9fb533774a3bcdee273d6683452a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0-72508533cd62b80d249bca4d3a51ea3a1d2a16c5.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-27933f34a7efa0a58b8e7c915d7bf689eedbfb15.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.1\551253c681cfd8ab4d988462cf672abcc6b31b89\google-api-client-android-1.19.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="551253c681cfd8ab4d988462cf672abcc6b31b89">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.19.1-891512b80c6759356c0a4617dfb6b477384c04b3.jar" />
-    </item>
-    <item
-        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2-30f11860499e3c24d650e4701a7960dbef5d991a.jar" />
-    </item>
-    <item
+        is-multidex="false"
         jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\google-http-client-1.19.0-2bc0543fb5de0e2acc6580b39d78dccdb928a291.jar" />
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\google-http-client-1.19.0_2bc0543fb5de0e2acc6580b39d78dccdb928a291.jar" />
     </item>
     <item
-        jar="C:\DevTools\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.10\ddce2c65136c1de8000f8932d8b7ab16d5d336b9\tubesock-0.0.10.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-9e7510001d658dab0c4d0c0b1b2d803c1ed78faa.jar" />
+        sha1="ddce2c65136c1de8000f8932d8b7ab16d5d336b9">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\tubesock-0.0.10_3074ae2845b8966091e37bc080f6920f99744982.jar" />
     </item>
     <item
-        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.isseiaoki\simplecropview\1.0.10\classes.jar"
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
-        sha1="2e296abe79b677a804cab2ecaf33b294c93993b5">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\classes-e56e6ef6025d8bc4c1c946a6817a28f325f3d691.jar" />
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0_6760e3047b037c5c3b0f2a20f7184482950b1024.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.5.0_713084ac36504981f5c619c09d3ca1282ee2e414.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_588d5e54a57c4798733b122d53ec771f8bfae488.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.m2\repository\com\appspot\universal_helix_789\androiddevice\v1-1.19.1-SNAPSHOT\androiddevice-v1-1.19.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ef0c4c4a209773e42b24c2be866633a9e2552fa1">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\androiddevice-v1-1.19.1-SNAPSHOT_20347d68ac240625e7afa6f6716ee116cfd094f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.0.3\1665cb30372ae93a46d9800adf5751bc48fa202f\firebase-client-android-2.0.3.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="1665cb30372ae93a46d9800adf5751bc48fa202f">
-        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.0.3-3c6992af3e1984b869625d94fc5b87d01c6ed508.jar" />
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\firebase-client-android-2.0.3_3c6992af3e1984b869625d94fc5b87d01c6ed508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\guava-jdk5-13.0_c50b9462ee91d633419736d240075f2c173a42b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\DevTools\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0_9e7510001d658dab0c4d0c0b1b2d803c1ed78faa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.0.3\81994bbc1bd46454616b733bf31fe4a22018e056\firebase-client-jvm-2.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81994bbc1bd46454616b733bf31fe4a22018e056">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\firebase-client-jvm-2.0.3_7b73c4884a1ad72cf77da29c523b45f9a8424cca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-6.5.87_62e90248b775c5e7ed3e438b301a0f0cc62e3793.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_4f74406b34d7439f95b4be41e356461f4154fba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.5.0_6832d6b0d53ef618334bf7708b3b5022b78ce429.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\jackson-core-2.2.2_8c4bb2512000a5b1e82d551b708d244e9ba3d1bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.5.0_6ff0baccc434aedd19294d61bd00cd6f2bb26b12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\google-http-client-jackson2-1.19.0_6d82418fb106cf44681068128de23394cbff59eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.5.0_c41ab191f756032df9b329d1ec4db7d0f7b07a9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.1\b09ccfa9ac71b52b60ba4c1ab630150685d58c32\google-api-client-1.19.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b09ccfa9ac71b52b60ba4c1ab630150685d58c32">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\google-api-client-1.19.1_dd417b028beeb141a24e5b9df0e0f560406f4069.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.5.0_73a3c1075741edd08c89bde50f3ceea6d2f14885.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.5.0_2558558964377c6b1cb7070b3f75b0eb29a9cc10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\jsr305-1.3.9_27933f34a7efa0a58b8e7c915d7bf689eedbfb15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.5.0_e98727277cc7d62ab59ab7455bfdee03ba814c44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.5.0_3786f0e61d1f6f2695ad923d0822e05a6e449f48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\jackson-databind-2.2.2_6f9e10055948ade6222b874faf11e6183d01f04e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\google-oauth-client-1.19.0_72508533cd62b80d249bca4d3a51ea3a1d2a16c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.0.0_e28e51e3d65cf6281bea23df2af43f56ffbc2fa3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.5.0_341536e21334a6e6c3463fa53bacee28486e6a3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\jackson-annotations-2.2.2_30f11860499e3c24d650e4701a7960dbef5d991a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.5.0_661b8657aeae8e6055eb26ca735757d012e7b3ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.0_3b94cec783b6abcf841f557dda76db9c0078410d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.isseiaoki\simplecropview\1.0.10\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2e296abe79b677a804cab2ecaf33b294c93993b5">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\com.isseiaoki-simplecropview-1.0.10_282b76eb1dc1978ea18dba1e22b53ef9ca56bcb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.1\551253c681cfd8ab4d988462cf672abcc6b31b89\google-api-client-android-1.19.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="551253c681cfd8ab4d988462cf672abcc6b31b89">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\google-api-client-android-1.19.1_891512b80c6759356c0a4617dfb6b477384c04b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.5.0_480a13f8a91168368993e43f99ed013737521ada.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-22.0.0_51d262abedc42384ddb8d9c69229c8acaff4d15c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.5.0_c985ed46d5f7175f346ed8064d784d3f9e6143e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0_ff5cf01d7dfa355749b898d92b17242be22b3440.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\com.android.support-support-v13-23.1.0_0042cd1106970c22c3204ee7128445b13475a263.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-7.5.0_3264e2a329ab3f959dbaa97e97c0f6c4618189c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.5.0_ce83ba3bb878fad50fe054990edfbe92866e4407.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexandr\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\release\google-http-client-android-1.19.0_464b2eaa285e9fb533774a3bcdee273d6683452a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.5.0_b396958ed7fae778f583443cacb0b256e3014364.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.5.0_d456c040d43d9e96e46da28c14c116f9cfc02600.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.5.0_5b8dd1f93119710653c90076d362ebd2ca33d393.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.5.0_c714a4ae8f636942ae30f479bc0fe043f2aa4502.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Dev\AndroidStudioWorkspace\App4It\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.5.0_054281e8f251d6bff5c8b80abdab52f2347e229a.jar" />
     </item>
 
 </items>

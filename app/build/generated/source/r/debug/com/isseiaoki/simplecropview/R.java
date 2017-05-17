@@ -8,42 +8,42 @@ package com.isseiaoki.simplecropview;
 
 public final class R {
 	public static final class attr {
-		public static final int backgroundColor = 0x7f010005;
-		public static final int cropEnabled = 0x7f010011;
-		public static final int cropMode = 0x7f010004;
-		public static final int frameColor = 0x7f010007;
-		public static final int frameStrokeWeight = 0x7f01000f;
-		public static final int guideColor = 0x7f010009;
-		public static final int guideShowMode = 0x7f01000a;
-		public static final int guideStrokeWeight = 0x7f010010;
-		public static final int handleColor = 0x7f010008;
-		public static final int handleShowMode = 0x7f01000b;
-		public static final int handleSize = 0x7f01000c;
-		public static final int imgSrc = 0x7f010003;
-		public static final int initialFrameScale = 0x7f010012;
-		public static final int minFrameSize = 0x7f01000e;
-		public static final int overlayColor = 0x7f010006;
-		public static final int touchPadding = 0x7f01000d;
+		public static final int backgroundColor = 0x7f01002c;
+		public static final int cropEnabled = 0x7f010038;
+		public static final int cropMode = 0x7f01002b;
+		public static final int frameColor = 0x7f01002e;
+		public static final int frameStrokeWeight = 0x7f010036;
+		public static final int guideColor = 0x7f010030;
+		public static final int guideShowMode = 0x7f010031;
+		public static final int guideStrokeWeight = 0x7f010037;
+		public static final int handleColor = 0x7f01002f;
+		public static final int handleShowMode = 0x7f010032;
+		public static final int handleSize = 0x7f010033;
+		public static final int imgSrc = 0x7f01002a;
+		public static final int initialFrameScale = 0x7f010039;
+		public static final int minFrameSize = 0x7f010035;
+		public static final int overlayColor = 0x7f01002d;
+		public static final int touchPadding = 0x7f010034;
 	}
 	public static final class id {
-		public static final int circle = 0x7f0c0000;
-		public static final int not_show = 0x7f0c0009;
-		public static final int ratio_16_9 = 0x7f0c0001;
-		public static final int ratio_1_1 = 0x7f0c0002;
-		public static final int ratio_3_4 = 0x7f0c0003;
-		public static final int ratio_4_3 = 0x7f0c0004;
-		public static final int ratio_9_16 = 0x7f0c0005;
-		public static final int ratio_custom = 0x7f0c0006;
-		public static final int ratio_fit_image = 0x7f0c0007;
-		public static final int ratio_free = 0x7f0c0008;
-		public static final int show_always = 0x7f0c000a;
-		public static final int show_on_touch = 0x7f0c000b;
+		public static final int circle = 0x7f0d0014;
+		public static final int not_show = 0x7f0d001d;
+		public static final int ratio_16_9 = 0x7f0d0015;
+		public static final int ratio_1_1 = 0x7f0d0016;
+		public static final int ratio_3_4 = 0x7f0d0017;
+		public static final int ratio_4_3 = 0x7f0d0018;
+		public static final int ratio_9_16 = 0x7f0d0019;
+		public static final int ratio_custom = 0x7f0d001a;
+		public static final int ratio_fit_image = 0x7f0d001b;
+		public static final int ratio_free = 0x7f0d001c;
+		public static final int show_always = 0x7f0d001e;
+		public static final int show_on_touch = 0x7f0d001f;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f050020;
+		public static final int app_name = 0x7f06003e;
 	}
 	public static final class styleable {
-		public static final int[] CropImageView = { 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012 };
+		public static final int[] CropImageView = { 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039 };
 		public static final int CropImageView_backgroundColor = 2;
 		public static final int CropImageView_cropEnabled = 14;
 		public static final int CropImageView_cropMode = 1;

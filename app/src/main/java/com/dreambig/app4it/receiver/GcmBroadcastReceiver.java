@@ -25,7 +25,7 @@ public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
 
         if("com.google.android.c2dm.intent.REGISTRATION".equalsIgnoreCase(intent.getAction())) {
             //this should arrive anytime when the gcm.register is called. #deviceRegistration
-            takeCareOfRegistration(context, intent);
+            takeCareOfRegistration(context, intent.getExtras().getString("registration_id"));
         } else {
             takeCareOfNotification(context, intent);
         }
@@ -33,9 +33,8 @@ public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
         setResultCode(Activity.RESULT_OK);
     }
 
-    private void takeCareOfRegistration(Context context, Intent intent) {
-        String registrationId = intent.getExtras().getString("registration_id");
-
+    //made public to use when using instanceID
+    public static void takeCareOfRegistration(Context context, String registrationId) {
         if(registrationId != null && !registrationId.equals("")) {
             //by now the user id should be saved in the references. but just in case it's not we check for null
             String userId = getUserId(context);
@@ -59,7 +58,7 @@ public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
         startWakefulService(context, (intent.setComponent(comp)));
     }
 
-    private String getUserId(Context context) {
+    private static String getUserId(Context context) {
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
         return sharedPrefs.getString(SharedPreferencesKeys.REGISTERED_USER_ID, null);
     }

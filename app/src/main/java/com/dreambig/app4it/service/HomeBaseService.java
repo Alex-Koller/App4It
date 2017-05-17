@@ -1,6 +1,7 @@
 package com.dreambig.app4it.service;
 
 import android.app.IntentService;
+import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
@@ -8,6 +9,8 @@ import com.dreambig.app4it.helper.GCMSupport;
 import com.dreambig.app4it.receiver.GcmBroadcastReceiver;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
+
+import java.io.IOException;
 
 /**
  * Created by Alexandr on 18/02/2015.
@@ -34,20 +37,17 @@ public class HomeBaseService extends IntentService {
         */
 
         try {
-            String authorizedEntity = GCMSupport.getApp4itProjectNumber();
-            InstanceID instanceID = InstanceID.getInstance(getApplicationContext());
-            String token = instanceID.getToken(authorizedEntity,GoogleCloudMessaging.INSTANCE_ID_SCOPE);
-            GcmBroadcastReceiver.takeCareOfRegistration(getApplicationContext(),token);
+            reconfirmGCMToken(getApplicationContext());
         } catch (Exception e) {
             //not much that can be done here
         }
     }
 
-    /*
-
-                do the refresh part of instance id
-
-
-    */
+    public static void reconfirmGCMToken(Context context) throws IOException {
+        String authorizedEntity = GCMSupport.getApp4itProjectNumber();
+        InstanceID instanceID = InstanceID.getInstance(context);
+        String token = instanceID.getToken(authorizedEntity,GoogleCloudMessaging.INSTANCE_ID_SCOPE);
+        GcmBroadcastReceiver.takeCareOfRegistration(context,token);
+    }
 
 }

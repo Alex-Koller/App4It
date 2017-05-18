@@ -8,7 +8,6 @@ android {
         applicationId "com.dreambig.app4it"
         minSdkVersion 13
         targetSdkVersion 21
-        multiDexEnabled true
     }
 
     buildTypes {
@@ -28,7 +27,10 @@ android {
 dependencies {
     compile "com.android.support:support-v13:23.1.0"
     compile 'com.firebase:firebase-client-android:2.0.3'
-    compile 'com.google.android.gms:play-services:7.5.0'
+    compile 'com.google.android.gms:play-services-base:7.5.0'
+    compile 'com.google.android.gms:play-services-gcm:7.5.0'
+    compile 'com.google.android.gms:play-services-location:7.5.0'
+    compile 'com.google.android.gms:play-services-maps:7.5.0'
     compile ([group: 'com.appspot.universal_helix_789', name: 'androiddevice', version: 'v1-1.19.1-SNAPSHOT'])
     compile ([group: 'com.google.api-client', name: 'google-api-client-android', version: '1.19.1'])
     compile 'com.isseiaoki:simplecropview:1.0.10'

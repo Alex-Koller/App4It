@@ -44,28 +44,28 @@
         "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-hdpi\\common_signin_btn_text_disabled_light.9.png"
     },
     {
-        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\belloff.png",
-        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\drawable-hdpi\\belloff.png"
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_text_pressed_dark.9.png",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-hdpi\\common_signin_btn_text_pressed_dark.9.png"
     },
     {
         "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noprofilephotohere.png",
         "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\drawable-hdpi\\noprofilephotohere.png"
     },
     {
-        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_text_pressed_dark.9.png",
-        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-hdpi\\common_signin_btn_text_pressed_dark.9.png"
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\belloff.png",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\drawable-hdpi\\belloff.png"
     },
     {
         "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\powered_by_google_light.png",
         "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\7.5.0\\res\\drawable-hdpi\\powered_by_google_light.png"
     },
     {
-        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_text_normal_dark.9.png",
-        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-hdpi\\common_signin_btn_text_normal_dark.9.png"
-    },
-    {
         "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bellnone.png",
         "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\drawable-hdpi\\bellnone.png"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_text_normal_dark.9.png",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-hdpi\\common_signin_btn_text_normal_dark.9.png"
     },
     {
         "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bellon.png",

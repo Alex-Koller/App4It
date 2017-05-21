@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dreambig.app4it"
-    android:versionCode="28"
-    android:versionName="1.2.4" >
+    android:versionCode="30"
+    android:versionName="1.2.6" >
 
     <uses-sdk
         android:minSdkVersion="13"
@@ -39,9 +39,6 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
-
-    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
-
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
@@ -165,27 +162,13 @@
         <service android:name="com.dreambig.app4it.service.GcmIntentService" />
         <service android:name="com.dreambig.app4it.service.HomeBaseService" />
         <service android:name="com.dreambig.app4it.service.HomeBaseTwoService" />
-
-        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
-            android:theme="@style/Theme.IAPTheme" />
-
-        <meta-data
-            android:name="com.google.android.gms.wallet.api.enabled"
-            android:value="true" />
-
-        <receiver
-            android:name="com.google.android.gms.wallet.EnableWalletOptimizationReceiver"
+        <service
+            android:name="com.dreambig.app4it.service.MyInstanceIDService"
             android:exported="false" >
             <intent-filter>
-                <action android:name="com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION" />
+                <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
-        </receiver>
+        </service>
     </application>
 
 </manifest>

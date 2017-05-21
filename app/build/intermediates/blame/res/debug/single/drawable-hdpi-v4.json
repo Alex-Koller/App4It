@@ -28,16 +28,16 @@
         "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\defaultprofilepicturebackgroundthree.jpg",
-        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\drawable-hdpi\\defaultprofilepicturebackgroundthree.jpg"
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\custom_progress_bar.xml",
         "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\drawable-hdpi\\custom_progress_bar.xml"
     },
     {
-        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\defaultprofilepicturebackgroundthree.jpg",
+        "source": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\src\\main\\res\\drawable-hdpi\\defaultprofilepicturebackgroundthree.jpg"
     },
     {
         "merged": "C:\\Dev\\AndroidStudioWorkspace\\App4It\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shadow_right_side.xml",
